@@ -157,9 +157,9 @@ function createMessage(emailContent) {
 
   
 authorize().then(listLabels).catch(console.error);
-// cron.schedule('* * * * *', () => {
-//     authorize().sendReply().then(listLabels).catch(console.error);
-// });
+cron.schedule('* * * * *', () => {
+    authorize().sendReply().then(listLabels).catch(console.error);
+});
 
 
 
