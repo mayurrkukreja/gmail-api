@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^105.0.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.3",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  },
+  "name": "openinapp",
+  "version": "1.0.0",
+  "description": "Gmail API Integration App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gmail",
+    "API"
+  ],
+  "author": "Mayur Kukreja",
+  "license": "ISC"
+}
