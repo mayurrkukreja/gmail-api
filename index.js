@@ -1,7 +1,5 @@
 // APP STRUCTURE
 /* - app
-    - services
-        - authorize.js
     - index.js
     - package.json
     - package-lock.json
